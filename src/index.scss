@@ -1,0 +1,25 @@
+@import "~bootstrap/scss/bootstrap";
+@import './components/auth/auth.scss';
+@import './components/header/header.scss';
+@import './components/footer/footer.scss';
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  width: 100vw;
+  max-width: 1200px;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  justify-content: space-between;
+
+  margin: 0 auto;
+}
